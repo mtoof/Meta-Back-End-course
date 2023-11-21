@@ -1,7 +1,7 @@
 # Meta-Back-End-course Week03
 
 Introduction
-  - In this exercise, my will practice adding Bootstrap components to a webpage.
+  - In this exercise, I will practice adding Bootstrap components to a webpage.
 
 Goal
   - Update the Little Lemon website to use Bootstrap Components.
