@@ -1,3 +1,3 @@
 # Meta-Back-End-course
 
-Recently I have started Meta Back-End course on Coursera and I will upload my exercises daily or weekly!
+Recently, I started a Meta Back-End course on Coursera, and I will be uploading my exercises daily or weekly!
