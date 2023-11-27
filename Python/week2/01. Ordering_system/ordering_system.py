@@ -26,11 +26,9 @@ def calculate_subtotal(order):
     print('Calculating bill subtotal...')
     ### WRITE SOLUTION HERE
     total = 0
-    for key, value in menu.items():
-        for ke, va in value.items():
-            for item in order:
-                if (va == item['name']):
-                    total += float(item['price'])
+    for item in order:
+        if (va == item['name']):
+            total += float(item['price'])
     return round(total, 2)
     raise NotImplementedError()
 
