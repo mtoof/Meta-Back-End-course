@@ -38,5 +38,5 @@ You need to migrate
 Now open the API request client, Insomnia and perform the following actions:
 
 Create a POST request to the URL: http://127.0.0.1:8000/api/ratings
-You need token of a user and in the Insomnia API request create a Form URL Encoded
-Add menuitem_id as key and small integer as value, add rating as key and 0-5 as value
+ - You need create some users and add a user token in the Insomnia app API request create a Form URL Encoded
+   Add menuitem_id as key and small integer as value, add rating as key and 0-5 as value
