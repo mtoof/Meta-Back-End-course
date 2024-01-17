@@ -1,6 +1,7 @@
 from rest_framework import serializers
 from .models import MenuItem, Category
 from rest_framework.validators import UniqueValidator
+from django.contrib.auth.models import User
 
 class CategorySeralizer(serializers.ModelSerializer):
     class Meta:
@@ -17,3 +18,8 @@ class MenuItemsSerializer(serializers.ModelSerializer):
         model = MenuItem
         fields = ['title', 'price', 'featured', 'category', 'category_id']
         depth = 1
+
+class UserSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = User
+        fields = ('__all__')
